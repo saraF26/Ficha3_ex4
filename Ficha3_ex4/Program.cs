@@ -22,6 +22,13 @@
 
             d1.DefenirProfessor(p1);
             d2.DefenirProfessor(p2);
+            //associação de alunos a disciplinas
+            a1.MatricularEmDisciplina(d1);
+            a2.MatricularEmDisciplina(d1);
+            //exibir informações
+            a1.ExibirInformações();
+            d1.ExibirInformaçoes();
+            p1.ExibirInformações();
         }
     }
 }
